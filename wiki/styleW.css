@@ -1,0 +1,62 @@
+html, body {
+	margin: 1.7em 3em 1em 3em;
+	font: 13px/1.5 sans-serif;
+}
+
+body {
+	/*max-height: 998px;*/
+	max-width: 768px;
+}
+
+.intro {
+	font-family: sans-serif;
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 150%;
+	min-width: 695px
+}
+
+.intro h4 {
+	text-align: right;
+	font-style: bold;
+	margin-top: 0;
+}
+
+a:link {
+	text-decoration: none;
+	color: #0645AD;
+}
+
+.icons {
+	display: table;
+	width: 100%;
+	min-width: 695px;
+	height: 180px;
+}
+
+.a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 24.6%;
+	height: 100%;
+}
+
+img {
+	margin: 0% 15%;
+	vertical-align: middle;
+	max-width: 137px;
+}
+
+.quote {
+	border-top: 1px solid gray;
+	width: 100%;
+	text-align: center;
+}
+
+.quote ul li {
+	display: inline;
+	list-style-type: disc;
+	margin-top: 0px;
+	margin-right: 35px;
+	padding-left: 0;
+}

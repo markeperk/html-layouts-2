@@ -1,0 +1,75 @@
+html, body {
+	margin: 0;
+	background: rgb(207, 207, 207);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 86%;
+	margin: 0 auto;
+}
+
+.top {
+	margin-top: 5%;
+	background: #fff;
+	height: 25%;
+	padding: 3%;
+}
+
+.bottom {
+	margin-top: 5%;
+	background: #fff;
+	height: 48%;
+	padding: 3%;
+}
+
+.button {
+	margin-top: 10%;
+	color: #fff;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 1.5em;
+	font-weight: normal;
+	width: 25%;
+	height: 20%;
+	float: left;
+	padding-top: 3%;
+}
+.red {
+	background: rgb(195, 0, 22);
+}
+
+.blue {
+	background: rgb(60, 122, 219);
+	margin-left: 3%;
+}
+
+.footnav {
+	margin-top: 10%;
+	background: rgb(38, 38, 38);
+	height: 8%;
+	padding-right: 10%;
+}
+
+p {
+	margin: 0;
+	font-family: Avenir;
+	line-height: 1.2em;
+}
+
+.footnav p {
+	color: #fff;
+	font-size: 1.2em;
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+img {
+	overflow: hidden;
+	margin-bottom: 3%;
+	height: 60%;
+	width: 100%;
+}
